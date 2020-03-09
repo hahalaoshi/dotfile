@@ -1,0 +1,18 @@
+{
+	"#include <>": {
+		"scope": "c,c++",
+		"prefix": "Inc",
+		"body": [
+			"#include <${1}>",
+		],
+	},
+
+	"#include \"\"": {
+		"scope": "c,c++",
+		"prefix": "inc",
+		"body": [
+			"#include \"${1}\"",
+		],
+	},
+
+}

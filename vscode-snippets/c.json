@@ -1,0 +1,10 @@
+{
+	"header include guard": {
+		"prefix": "once",
+		"body": [
+			"#ifndef ${1:__}\n#define ${1}\n\n${2}\n\n#endif /* ${1} */",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+}
