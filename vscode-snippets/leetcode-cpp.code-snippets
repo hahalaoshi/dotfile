@@ -18,9 +18,22 @@
 			"/**********************************************************************************"
 			"**********************************************************************************/"
 			"#include <vector>"
+			"#include <queue>"
+			"#include <unordered_map>"
+			"#include <string>"
 			"#include <algorithm>"
 			"using namespace std;"
 		],
 		"description": "Leetcode header"
+	},
+
+	"row and column": {
+		"scope": "",
+		"prefix": "mn",
+		"body": [
+			"m = ${1}.size();"
+			"n = ${1}[0].size();"
+		],
+		"description": "Leetcode m row and n column"
 	}
 }
